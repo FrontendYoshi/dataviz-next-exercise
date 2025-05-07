@@ -1,3 +1,4 @@
+import BarChart2 from "@/components/chartjs/BarChart2";
 import BarChartBasic from "@/components/chartjs/BarChartBasic";
 
 export default function ChartJSExamples() {
@@ -15,6 +16,9 @@ export default function ChartJSExamples() {
   return (
     <div>
       <BarChartBasic data={data} />
+      <BarChart2 data={data} />
+
     </div>
   );
 }
+// über bsp Barchart2 mit Mouse dann quick fix und import
