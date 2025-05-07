@@ -1,5 +1,5 @@
+import BarChart from "@/components/chartjs/BarChart";
 import BarChart2 from "@/components/chartjs/BarChart2";
-import BarChartBasic from "@/components/chartjs/BarChartBasic";
 
 export default function ChartJSExamples() {
 
@@ -15,7 +15,7 @@ export default function ChartJSExamples() {
 
   return (
     <div>
-      <BarChartBasic data={data} />
+      <BarChart data={data} />
       <BarChart2 data={data} />
 
     </div>
